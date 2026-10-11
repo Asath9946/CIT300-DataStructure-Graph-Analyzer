@@ -52,16 +52,16 @@ exactly who took over which component. No component may be dropped.)*
 - Tested array boundary conditions (full array, empty array, invalid index)
 - Integrated the Array and Searching menus with the main application
 
-**Student Name:** ____________________
-**Student ID:** ____________________
+**Student Name:** M. I. M. Naizar
+**Student ID:** 23DA2-1052
 **Assigned Responsibility:** Stack and Queue
 **Individual Contribution:**
-- Implemented the `StackStructure` class (push, pop, peek, display, LIFO
-  reversal demonstration) with overflow and underflow handling
-- Implemented the `QueueStructure` class as a circular array queue (enqueue,
-  dequeue, peek, display) with overflow and underflow handling
-- Tested empty-structure conditions for both components
-- Integrated the Stack and Queue menus with the main application
+- Implemented the StackStructure class with push, pop, peek and display
+- Added stack overflow and stack underflow handling
+- Implemented the QueueStructure class as a circular array queue
+- Added queue overflow and queue underflow handling
+- Implemented the LIFO reversal demonstration
+- Tested both structures with empty and full conditions
 
 **Student Name:** ____________________
 **Student ID:** ____________________
