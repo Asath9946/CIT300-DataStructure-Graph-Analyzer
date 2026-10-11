@@ -283,29 +283,4 @@ Explanation of these results is in `docs/COMPLEXITY_NOTES.md`.
 | Duplicate vertex or duplicate edge | Rejected with a message |
 | Self-loop edge | Rejected with a message |
 
----
 
-## 10. GitHub Collaboration
-
-See `docs/GITHUB_WORKFLOW.md` for the branch, commit and pull request steps.
-Each member works on their own branch from their own GitHub account, so the
-repository history shows genuine individual development as required by
-Section 9 of the assignment brief.
-
----
-
-## 11. Submission Checklist
-
-- [ ] All team member names filled in above
-- [ ] All student IDs filled in above
-- [ ] Responsibilities documented
-- [ ] Individual contributions documented
-- [ ] Code compiles with no errors
-- [ ] Every component demonstrated and tested
-- [ ] GitHub repository complete with branches, commits and pull requests
-- [ ] One merged demonstration video, under 15 minutes
-- [ ] Every member's face clearly visible during their own section
-- [ ] Google Drive uploaded (if the LMS upload is too large)
-- [ ] Editor access granted to `asanka.r@sltc.ac.lk`
-- [ ] Editor access granted to `kaushika.w@sltc.ac.lk`
-- [ ] Submitted through the LMS link before the deadline
