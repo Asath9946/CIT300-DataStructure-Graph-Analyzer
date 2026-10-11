@@ -21,46 +21,68 @@ different order even though both are O(V + E).
 
 ---
 
-### Individual Contributions
+## 2. Team Members
+
+| # | Full Name | Student ID | Assigned Responsibility |
+|---|-----------|------------|--------------------------|
+| 1 | M. I. Thanish | 23DA2-0897 | Array component + Searching algorithms |
+| 2 | M. I. M. Naizar | 23DA2-1052 | Stack component + Queue component |
+| 3 | J. F. Asma | 23DA2-0645 | Singly Linked List component |
+| 4 | A. H. Arsah Ahmed | 23DA2-0746 | Graph component + BFS/DFS traversal |
+| 5 | F. M. Asath | 23DA2-0743 | Integration, Main Menu, Performance Comparison, Testing |
+
+---
+
+## 3. Individual Contributions
 
 **Student Name:** M. I. Thanish
 **Student ID:** 23DA2-0897
 **Assigned Responsibility:** Array component and Searching algorithms
 **Individual Contribution:**
-- Implemented the ArrayStructure class with insert at end, insert at index, delete by index, delete by value, update and display
-- Implemented linear search on the array with step counting
-- Implemented iterative and recursive binary search in SearchAlgorithms
+- Implemented the `ArrayStructure` class with insert at end, insert at index,
+  delete by index, delete by value, update and display
+- Implemented linear search on the array with elementary step counting
+- Implemented iterative and recursive binary search in `SearchAlgorithms`
 - Implemented the insertion sort helper used to prepare data for binary search
 - Built the Linear vs Binary comparison that demonstrates O(n) against O(log n)
+  on datasets of up to 100,000 elements
 - Tested array boundary conditions: full array, empty array and invalid index
 
-  **Student Name:** M. I. M. Naizar
+---
+
+**Student Name:** M. I. M. Naizar
 **Student ID:** 23DA2-1052
 **Assigned Responsibility:** Stack and Queue components
 **Individual Contribution:**
-- Implemented the StackStructure class with push, pop, peek and display
+- Implemented the `StackStructure` class with push, pop, peek and display
 - Added stack overflow and stack underflow handling so the program never crashes
-- Implemented the QueueStructure class as a circular array queue
+- Implemented the `QueueStructure` class as a circular array queue, keeping
+  enqueue and dequeue at O(1) with no element shifting
 - Added queue overflow and queue underflow handling
 - Implemented the LIFO reversal demonstration
 - Tested both structures under empty and full conditions
 
-  **Student Name:** J. F. Asma
+---
+
+**Student Name:** J. F. Asma
 **Student ID:** 23DA2-0645
 **Assigned Responsibility:** Singly Linked List component
 **Individual Contribution:**
-- Implemented the LinkedListStructure class with an inner Node class
+- Implemented the `LinkedListStructure` class with an inner `Node` class
 - Implemented insert at beginning, insert at end and insert at position
 - Implemented delete by value and delete by position
-- Implemented search and in-place reversal using three pointers
-- Compared linked list insertion cost against array insertion cost
+- Implemented search and in-place reversal using the three-pointer technique
+- Documented the comparison between linked list insertion cost and array
+  insertion cost
 - Tested insertion and deletion on an empty list and at invalid positions
 
-  **Student Name:** A. H. Arsah Ahmed
+---
+
+**Student Name:** A. H. Arsah Ahmed
 **Student ID:** 23DA2-0746
 **Assigned Responsibility:** Graph component and traversal algorithms
 **Individual Contribution:**
-- Implemented the Graph class using an adjacency list representation
+- Implemented the `Graph` class using an adjacency list representation
 - Implemented add vertex, add edge, remove vertex and remove edge
 - Implemented adjacency list and adjacency matrix display for comparison
 - Implemented BFS traversal using a queue
@@ -68,19 +90,23 @@ different order even though both are O(V + E).
 - Implemented shortest path search between two vertices and the connectivity check
 - Tested traversal from a non-existent vertex, duplicate edges and self-loops
 
-  **Student Name:** F. M. Asath
+---
+
+**Student Name:** F. M. Asath
 **Student ID:** 23DA2-0743
 **Assigned Responsibility:** Integration, Main Menu, Performance Comparison and Testing
 **Individual Contribution:**
-- Implemented Main as the integration layer owning one shared instance of every structure
-- Implemented the PerformanceTracker and OperationStats classes
+- Implemented `Main` as the integration layer that owns one shared instance of
+  every data structure, making the system one application rather than six
+- Implemented `PerformanceTracker` and `OperationStats` for step and time measurement
 - Implemented the performance comparison tables and the automatic benchmark
-- Implemented InputValidator so invalid input cannot crash the program
-- Implemented ConsoleUI for consistent formatting across all menus
+- Implemented `InputValidator` so that invalid input cannot crash the program
+- Implemented `ConsoleUI` for consistent formatting across all menus
 - Carried out full system testing and set up the GitHub repository
 
+---
 
-## 3. Technologies Used
+## 4. Technologies Used
 
 | Item | Detail |
 |------|--------|
@@ -88,12 +114,12 @@ different order even though both are O(V + E).
 | Application type | Console-based system |
 | Paradigm | Object-oriented – encapsulation, separation of concerns, one class per data structure |
 | External libraries | None. All data structures are implemented from first principles. |
-| Version control | Git + GitHub (branches, commits, pull requests) |
-| IDE | IntelliJ IDEA / Eclipse / VS Code (any) |
+| Version control | Git + GitHub (branches, commits, issues, pull requests) |
+| IDE | IntelliJ IDEA / Eclipse / VS Code |
 
 ---
 
-## 4. Main System Features
+## 5. Main System Features
 
 ### A. Array
 Insert at end, insert at index, delete by index, delete by value, update,
@@ -131,8 +157,8 @@ position, delete by value / position, search, in-place reversal, display.
 ### G. Performance / Complexity Demonstration
 - Every operation records **step count** and **execution time in nanoseconds**
 - Full performance table of all recorded operations
-- Dedicated Linear vs Binary and BFS vs DFS comparisons with a written
-  explanation of why the results differ
+- Dedicated Linear vs Binary and BFS vs DFS comparisons with written
+  explanations of why the results differ
 - One-click automatic benchmark that fills the table across all components
 - Complexity reference table for every structure and algorithm
 
@@ -144,16 +170,16 @@ the complete performance table.
 
 ---
 
-## 5. Project Structure
+## 6. Project Structure
 
 ```
-DataStructureGraphAnalyzer/
+CIT300-DataStructure-Graph-Analyzer/
 ├── README.md
 ├── .gitignore
 ├── run.sh                       # compile + run on Linux / macOS
 ├── run.bat                      # compile + run on Windows
 ├── docs/
-│   ├── COMPLEXITY_NOTES.md      # the complexity answers for the viva
+│   ├── COMPLEXITY_NOTES.md      # complexity explanations for the viva
 │   ├── VIDEO_SCRIPT.md          # demonstration video script
 │   ├── GITHUB_WORKFLOW.md       # branch / commit / PR instructions
 │   └── SAMPLE_OUTPUT.md         # expected console output
@@ -177,7 +203,7 @@ DataStructureGraphAnalyzer/
 
 ---
 
-## 6. Instructions for Running the Program
+## 7. Instructions for Running the Program
 
 ### Requirement
 Java JDK 17 or later. Check with:
@@ -189,31 +215,37 @@ javac -version
 
 ### Option 1 – one command (recommended)
 
-Linux / macOS:
+**Windows (Command Prompt or PowerShell):**
+```
+.\run.bat
+```
+
+**Linux / macOS:**
 ```bash
 chmod +x run.sh
 ./run.sh
 ```
 
-Windows:
-```cmd
-run.bat
-```
-
 ### Option 2 – manual compile and run
 
-Linux / macOS:
-```bash
-mkdir -p build
-javac -d build $(find src -name "*.java")
-java -cp build com.sltc.dsa.Main
-```
-
-Windows (Command Prompt):
+**Windows (Command Prompt):**
 ```cmd
 mkdir build
 dir /s /B src\*.java > sources.txt
 javac -d build @sources.txt
+java -cp build com.sltc.dsa.Main
+```
+
+**Windows (PowerShell):**
+```powershell
+javac -d build (Get-ChildItem -Path src -Recurse -Filter *.java).FullName
+java -cp build com.sltc.dsa.Main
+```
+
+**Linux / macOS / Git Bash:**
+```bash
+mkdir -p build
+javac -d build $(find src -name "*.java")
 java -cp build com.sltc.dsa.Main
 ```
 
@@ -230,7 +262,7 @@ Open the project folder, mark `src` as the sources root, and run
 
 ---
 
-## 7. Example Main Menu
+## 8. Main Menu
 
 ```
 ============================================================
@@ -251,7 +283,7 @@ Enter your choice:
 
 ---
 
-## 8. Sample Performance Output
+## 9. Sample Performance Output
 
 ```
 Operation              Algorithm / Structure       Steps      Time (ms)
@@ -260,13 +292,44 @@ Search (n=10000)       Linear Search               10000       0.325239
 Search (n=10000)       Binary Search                  14       0.001735
 Graph Traversal        BFS                            28       1.731812
 Graph Traversal        DFS                            29       0.643665
+Insert                 Array (at end)                  2       0.001213
+Insert                 Linked List (at end)            7       0.002470
+Insert                 Stack (push)                    2       0.002625
+Insert                 Queue (enqueue)                 2       0.002727
 ```
 
-Explanation of these results is in `docs/COMPLEXITY_NOTES.md`.
+**Why linear search took 10000 steps and binary search took 14:** linear search
+examines every element until it finds the target, so the worst case is n
+comparisons. Binary search discards half the remaining range on every
+comparison, so it needs at most log2(n) comparisons — log2(10000) is about 13.3.
+
+**Why BFS and DFS have almost the same step count:** both are O(V + E) because
+each vertex is visited once and each edge is examined once. What differs is the
+visit order and the memory profile, not the complexity.
+
+Full explanations are in `docs/COMPLEXITY_NOTES.md`.
 
 ---
 
-## 9. Input Validation and Error Handling
+## 10. Complexity Reference
+
+| Structure / Algorithm | Access | Search | Insert / Delete | Space |
+|---|---|---|---|---|
+| Array | O(1) | O(n) | O(n) | O(n) |
+| Stack (array) | O(1) top | O(n) | O(1) | O(n) |
+| Queue (circular) | O(1) front | O(n) | O(1) | O(n) |
+| Singly Linked List | O(n) | O(n) | O(1) at head | O(n) + pointers |
+| Linear Search | – | O(n) | – | O(1) |
+| Binary Search | – | O(log n) | – | O(1) iterative |
+| Insertion Sort | – | – | O(n²) | O(1) |
+| Graph BFS | – | O(V+E) | – | O(V) |
+| Graph DFS | – | O(V+E) | – | O(depth) |
+| Adjacency List | O(degree) | O(V+E) | O(1) add edge | O(V+E) |
+| Adjacency Matrix | O(1) | O(V²) | O(1) add edge | O(V²) |
+
+---
+
+## 11. Input Validation and Error Handling
 
 | Condition | Behaviour |
 |-----------|-----------|
@@ -283,4 +346,32 @@ Explanation of these results is in `docs/COMPLEXITY_NOTES.md`.
 | Duplicate vertex or duplicate edge | Rejected with a message |
 | Self-loop edge | Rejected with a message |
 
+---
 
+## 12. Version Control
+
+This project was developed using Git and GitHub. The repository contains:
+
+- Feature branches for each component
+- Descriptive commit messages following the `type(scope): summary` convention
+- Issues created for each component and assigned to the responsible member
+- Pull requests used to merge completed work into `main`
+
+Repository: https://github.com/Asath9946/CIT300-DataStructure-Graph-Analyzer
+
+---
+
+## 13. Submission Checklist
+
+- [x] All team member names and student IDs recorded
+- [x] Responsibilities documented
+- [x] Individual contributions documented
+- [x] Code compiles with no errors
+- [x] Every component implemented and tested
+- [x] GitHub repository with commits, issues and pull requests
+- [ ] One merged demonstration video, under 15 minutes
+- [ ] Every member's face clearly visible during their own section
+- [ ] Google Drive uploaded (if the LMS upload is too large)
+- [ ] Editor access granted to `asanka.r@sltc.ac.lk`
+- [ ] Editor access granted to `kaushika.w@sltc.ac.lk`
+- [ ] Submitted through the LMS link
