@@ -21,85 +21,64 @@ different order even though both are O(V + E).
 
 ---
 
-## 2. Team Members
-
-> **FILL THIS IN BEFORE SUBMITTING.** Section 5 and 7 of the assignment brief
-> require the full name, student ID, assigned responsibility and individual
-> contribution of every member. Missing or incorrect details lose marks.
-
-| # | Full Name | Student ID | Assigned Responsibility |
-|---|-----------|------------|--------------------------|
-| 1 | _______________________ | ____________ | Array + Searching |
-| 2 | _______________________ | ____________ | Stack + Queue |
-| 3 | _______________________ | ____________ | Linked List |
-| 4 | _______________________ | ____________ | Graph + BFS/DFS |
-| 5 | _______________________ | ____________ | Performance comparison, main menu, integration, testing |
-
-*(If the group has fewer than five members, combine responsibilities and record
-exactly who took over which component. No component may be dropped.)*
-
 ### Individual Contributions
 
-**Student Name:** ____________________
-**Student ID:** ____________________
-**Assigned Responsibility:** Array and Searching
+**Student Name:** M. I. Thanish
+**Student ID:** 23DA2-0897
+**Assigned Responsibility:** Array component and Searching algorithms
 **Individual Contribution:**
-- Implemented the `ArrayStructure` class (insert at end / at index, delete by
-  index / by value, update, linear search, display)
-- Implemented the `SearchAlgorithms` class (linear search, iterative and
-  recursive binary search, insertion sort helper)
-- Implemented the step counting used in the search comparison
-- Tested array boundary conditions (full array, empty array, invalid index)
-- Integrated the Array and Searching menus with the main application
+- Implemented the ArrayStructure class with insert at end, insert at index, delete by index, delete by value, update and display
+- Implemented linear search on the array with step counting
+- Implemented iterative and recursive binary search in SearchAlgorithms
+- Implemented the insertion sort helper used to prepare data for binary search
+- Built the Linear vs Binary comparison that demonstrates O(n) against O(log n)
+- Tested array boundary conditions: full array, empty array and invalid index
 
-**Student Name:** M. I. M. Naizar
+  **Student Name:** M. I. M. Naizar
 **Student ID:** 23DA2-1052
-**Assigned Responsibility:** Stack and Queue
+**Assigned Responsibility:** Stack and Queue components
 **Individual Contribution:**
 - Implemented the StackStructure class with push, pop, peek and display
-- Added stack overflow and stack underflow handling
+- Added stack overflow and stack underflow handling so the program never crashes
 - Implemented the QueueStructure class as a circular array queue
 - Added queue overflow and queue underflow handling
 - Implemented the LIFO reversal demonstration
-- Tested both structures with empty and full conditions
+- Tested both structures under empty and full conditions
 
-**Student Name:** ____________________
-**Student ID:** ____________________
-**Assigned Responsibility:** Linked List
+  **Student Name:** J. F. Asma
+**Student ID:** 23DA2-0645
+**Assigned Responsibility:** Singly Linked List component
 **Individual Contribution:**
-- Implemented the `LinkedListStructure` class with an inner `Node` class
-- Implemented insert at beginning / end / position, delete by value and by
-  position, search, in-place reversal and display
+- Implemented the LinkedListStructure class with an inner Node class
+- Implemented insert at beginning, insert at end and insert at position
+- Implemented delete by value and delete by position
+- Implemented search and in-place reversal using three pointers
 - Compared linked list insertion cost against array insertion cost
-- Integrated the Linked List menu with the main application
+- Tested insertion and deletion on an empty list and at invalid positions
 
-**Student Name:** ____________________
-**Student ID:** ____________________
-**Assigned Responsibility:** Graph Component
+  **Student Name:** A. H. Arsah Ahmed
+**Student ID:** 23DA2-0746
+**Assigned Responsibility:** Graph component and traversal algorithms
 **Individual Contribution:**
-- Implemented the `Graph` class using an adjacency list representation
-- Implemented add vertex, add edge, remove vertex, remove edge
-- Implemented adjacency list and adjacency matrix display
-- Implemented BFS traversal (queue based) and DFS traversal (stack based and
-  recursive)
-- Implemented shortest-path search and the connectivity check
-- Tested graph functionality and integrated the graph module with the main
-  application
+- Implemented the Graph class using an adjacency list representation
+- Implemented add vertex, add edge, remove vertex and remove edge
+- Implemented adjacency list and adjacency matrix display for comparison
+- Implemented BFS traversal using a queue
+- Implemented DFS traversal using a stack, plus a recursive variant
+- Implemented shortest path search between two vertices and the connectivity check
+- Tested traversal from a non-existent vertex, duplicate edges and self-loops
 
-**Student Name:** ____________________
-**Student ID:** ____________________
-**Assigned Responsibility:** Performance Comparison, Main Menu, Integration and Testing
+  **Student Name:** F. M. Asath
+**Student ID:** 23DA2-0743
+**Assigned Responsibility:** Integration, Main Menu, Performance Comparison and Testing
 **Individual Contribution:**
-- Implemented `Main` as the integration layer that owns one shared instance of
-  every structure
-- Implemented `PerformanceTracker`, `OperationStats` and the performance
-  comparison tables
-- Implemented `InputValidator` so no invalid input can crash the program
-- Implemented `ConsoleUI` for consistent formatting across all menus
-- Implemented the automatic benchmark and the complexity reference table
-- Carried out full system testing
+- Implemented Main as the integration layer owning one shared instance of every structure
+- Implemented the PerformanceTracker and OperationStats classes
+- Implemented the performance comparison tables and the automatic benchmark
+- Implemented InputValidator so invalid input cannot crash the program
+- Implemented ConsoleUI for consistent formatting across all menus
+- Carried out full system testing and set up the GitHub repository
 
----
 
 ## 3. Technologies Used
 
