@@ -3,6 +3,7 @@
 **CIT300 – Data Structures and Algorithms**
 Graded Practical Assignment 2 (Week 12)
 Sri Lanka Technology Campus (SLTC Research University)
+Team Group 05 - SLTC Research University
 
 ---
 
@@ -330,3 +331,6 @@ Section 9 of the assignment brief.
 - [ ] Editor access granted to `asanka.r@sltc.ac.lk`
 - [ ] Editor access granted to `kaushika.w@sltc.ac.lk`
 - [ ] Submitted through the LMS link before the deadline
+
+
+.\run.bat
